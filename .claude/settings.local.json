@@ -21,7 +21,10 @@
       "Bash(git rm:*)",
       "Bash(gh repo:*)",
       "Bash(git reset:*)",
-      "Bash(git update-ref:*)"
+      "Bash(git update-ref:*)",
+      "Bash(git push:*)",
+      "Bash(vercel --yes)",
+      "Bash(npm run:*)"
     ]
   }
 }

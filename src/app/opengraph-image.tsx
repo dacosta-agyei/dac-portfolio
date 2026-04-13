@@ -34,8 +34,10 @@ export default async function Image() {
         }} />
 
         {/* Profile photo */}
+        {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={profileSrc}
+          alt="DaCosta Agyei"
           width={120}
           height={120}
           style={{

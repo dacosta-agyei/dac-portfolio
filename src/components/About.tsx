@@ -139,8 +139,8 @@ export default function About() {
                   <span className="text-brand-green font-semibold">Currently Available for Remote Work</span>
                 </div>
                 <p className="text-slate-400 text-sm leading-relaxed">
-                  I'm actively seeking full-time or contract remote opportunities worldwide. 
-                  I'm flexible across US, EU, and APAC time zones and responsive within 24 hours.
+                  I&apos;m actively seeking full-time or contract remote opportunities worldwide.
+                  I&apos;m flexible across US, EU, and APAC time zones and responsive within 24 hours.
                 </p>
                 <div className="mt-4 flex gap-3">
                   <a
