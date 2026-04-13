@@ -24,7 +24,10 @@
       "Bash(git update-ref:*)",
       "Bash(git push:*)",
       "Bash(vercel --yes)",
-      "Bash(npm run:*)"
+      "Bash(npm run:*)",
+      "Bash(vercel --prod --yes)",
+      "Bash(vercel domains:*)",
+      "Bash(dig dacostaagyei.com A +short)"
     ]
   }
 }
