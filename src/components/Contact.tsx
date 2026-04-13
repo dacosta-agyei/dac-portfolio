@@ -124,10 +124,10 @@ export default function Contact() {
                 {[
                   'Full-time Remote',
                   'Contract / Freelance',
+                  'Consulting / Advisory',
                   'AI / ML Roles',
                   'Full-Stack Roles',
                   'Team Lead Roles',
-                  'Long-term Projects',
                 ].map(tag => (
                   <span
                     key={tag}
@@ -196,6 +196,7 @@ export default function Contact() {
                 >
                   <option value="Full-time Opportunity">Full-time Opportunity</option>
                   <option value="Contract / Freelance">Contract / Freelance</option>
+                  <option value="Consulting">Consulting / Advisory</option>
                   <option value="AI/ML Project">AI/ML Project</option>
                   <option value="Full-Stack Project">Full-Stack Project</option>
                   <option value="Collaboration">Collaboration</option>

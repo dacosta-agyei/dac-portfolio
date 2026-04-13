@@ -27,7 +27,12 @@
       "Bash(npm run:*)",
       "Bash(vercel --prod --yes)",
       "Bash(vercel domains:*)",
-      "Bash(dig dacostaagyei.com A +short)"
+      "Bash(dig dacostaagyei.com A +short)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code} %{redirect_url}\" https://dacostaagyei.com)",
+      "Bash(curl -sL -o /dev/null -w \"HTTP %{http_code} | IP: %{remote_ip}\" --connect-to dacostaagyei.com:443:76.76.21.21:443 https://dacostaagyei.com)",
+      "Bash(curl -sL -o /dev/null -w \"HTTP %{http_code}\" https://dacportfolio.vercel.app)",
+      "Bash(vercel certs:*)",
+      "Bash(curl -s https://dacostaagyei.com/sitemap.xml)"
     ]
   }
 }
